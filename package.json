@@ -1,13 +1,10 @@
 {
   "name": "slugai-lite",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "AI-powered slug generator",
   "main": "index.js",
   "types": "index.d.ts",
   "type": "module",
-  "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
-  },
   "keywords": [
     "slug",
     "ai",
@@ -20,12 +17,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snekkenull/slugai.git"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
-  "jest": {
-    "transform": {}
+    "url": "git+https://github.com/snekkenull/slugai-lite.git"
   }
 }
