@@ -20,7 +20,7 @@ async function slugai(text, options = {}) {
   try {
     const prompt = `Convert the following text into a URL-friendly slug. 
       The slug should:
-      - Be in English
+      - Be translated into English
       - Use hyphens to separate words
       - Be lowercase
       - Only contain alphanumeric characters and hyphens
@@ -42,7 +42,7 @@ async function slugai(text, options = {}) {
         messages: [
           {
             role: "system",
-            content: "You are a URL slug generator that creates clean, SEO-friendly slugs."
+            content: "You are a URL slug generator that creates concise, SEO-friendly slugs."
           },
           {
             role: "user",
